@@ -15,7 +15,7 @@ ventana = pygame.display.set_mode((ancho, alto))
 # Cargar fondo y escalar a las dimensiones de la ventana
 fondo = pygame.image.load("recursos/fondos/fondo.png")
 fondo = pygame.transform.scale(fondo, (ancho, alto))
- 
+
 # Colores RGB
 color_blanco = (255, 255, 255)
 color_negro = (0, 0, 0)
